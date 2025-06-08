@@ -1,0 +1,113 @@
+{
+  "id": "a77bd2b7-1c03-4ea9-bb94-365fad5ad8e5",
+  "version": "2.0",
+  "name": "Projekt_2_Prikazy_Selenium",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "07b14568-34c2-4736-92d5-b1476d1e4c49",
+    "name": "TC_001_Otvorenie webstránok",
+    "commands": [{
+      "id": "4266eb47-74ef-477a-a007-73a8bfbe2e42",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1097c731-0c7c-4a3a-8f96-eba6b44d99e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "493df33f-c096-4c75-be38-d1477930a3ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14c99a75-ac71-4058-9d3f-a6e3d7e0c8a6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.selenium.com/",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "970eecb7-b475-4924-b4fd-66394a3005a1",
+    "name": "TC_002_Cakanie_Element_Wait",
+    "commands": [{
+      "id": "58abd097-4609-40a0-b9c4-4c2c19aafb04",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f57e8bb-d7e9-464b-ac1b-371fd38d4ebb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "",
+      "targets": [],
+      "value": "3000"
+    }]
+  }, {
+    "id": "027809cf-e93f-4b13-a4ec-15853eca4b83",
+    "name": "TC_003_Cakanie_Element_Wait_Visible",
+    "commands": [{
+      "id": "26db86c8-45b6-4a0f-9864-1f592b19a292",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af1cbad3-1a21-4481-b03d-bc652ef29609",
+      "comment": "",
+      "command": "//waitForElementVisible",
+      "target": "",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "0b23b250-e740-4db0-92d6-6dfb75298802",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.alza.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05532da8-c0de-46f8-9512-7f4d8b469ff8",
+      "comment": "",
+      "command": "//waitForElementVisible",
+      "target": "",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "37c314ec-6502-464c-8f1f-03c9b62c2922",
+      "comment": "",
+      "command": "echo",
+      "target": "Test úspešný",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0ef9f14-6bc5-4266-bfe9-b7bae83005f8",
+      "comment": "",
+      "command": "//Moja poznamka Koniec testu",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac9caa98-7c66-48db-8a20-f7735b806108",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["07b14568-34c2-4736-92d5-b1476d1e4c49"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}
